@@ -1,0 +1,42 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "main": "config/server.js",
+  "license": "MIT",
+  "scripts": {
+    "development": "nodemon"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "16.13.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "3.5.5",
+    "mongoose": "^5.13.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-hot-loader": "4.12.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "7.9.4",
+    "@webpack-cli/generators": "^2.2.0",
+    "babel-loader": "^8.2.2",
+    "nodemon": "2.0.2",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-middleware": "3.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-hot-middleware": "2.25.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
